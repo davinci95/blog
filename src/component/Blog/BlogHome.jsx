@@ -16,8 +16,8 @@ const BlogHome = () => {
               paraTwo: "New Ways to Wear Denim Belt Bags make a Comeback",
               name: "By Jasmin Smith",
               subTitle: "How to Shop Mindfully",
-              qrCode: "../../logo192.png",
-              cover: "../../Images/blog5.jpg",
+              qrCode: "./blog/logo192.png",
+              cover: "./blog/Images/blog5.jpg",
             },
           ]
   return (
