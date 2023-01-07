@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: "Poppins", sans-serif;
+}
+h1,
+h2 {
+   font-family: "Playfair Display", serif;
+}
+.row {
+   width: 50%;
+}
+a {
+   text-decoration: none;
+   color: black;
+}
+span {
+   color: crimson;
+   font-weight: 400;
+   text-transform: capitalize;
+}
+h2 {
+   font-size: 30px;
+   line-height: 35px;
+   margin: 20px 0;
+}
+.grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 30px;
+}
+.top {
+   margin-top: 80px;
+}
+
+.slick-dots li button::before {
+   font-size: 20px;
+}
+
+.img {
+   overflow: hidden;
+   transition: 0.5s;
+}
+.img img {
+   transition: 0.5s;
+}
+.img img:hover {
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+.CardTwo.slide .box:nth-child(even) {
+   flex-direction: row-reverse;
+}
+.CardTwo.slide .img {
+   padding: 10px;
+}
+.CardTwo.slide .img img:hover {
+   transform: none;
+}
